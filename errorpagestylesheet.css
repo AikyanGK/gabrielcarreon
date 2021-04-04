@@ -1,0 +1,20 @@
+body{
+    background-color:rgb(38, 40, 41);
+    color:  #1ba39c;
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-size: 20vw;
+}
+p{
+    font-size: 1rem;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    flex: wrap;
+}
+.error{
+    margin: 3rem;
+}

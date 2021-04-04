@@ -1,0 +1,329 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-attachment: fixed;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+h1{
+    font-size: 4.5rem;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+hr.style-light{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, .75), rgba(255, 255, 255, 0));
+    border:0;
+    height: 2px;
+}
+hr.style-dark{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    border:0;
+    height: 2px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+}
+#aboutMe{
+    background: url(images/sakura.png);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+#aboutMe .container{
+    font-family: 'Lato',sans-serif;
+    flex-direction: row;
+    display: block;
+}
+#aboutMe .container .divider{
+    background: rgb(255, 255, 255, .3);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#aboutMe .container .divider p{
+    margin-top: auto;
+}
+#aboutMe .container .header{
+    background: rgb(255, 255, 255, .3);
+    border-radius: 2rem 2rem 0 0;
+    margin-top: 5%;
+}
+#aboutMe .container .header img{
+    border-radius: 50%;
+    display: block;
+    margin: 3rem auto;
+    width: 60%;
+}
+#aboutMe .container .header .aboutMeText{
+    color:black;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: auto 0;
+}
+#aboutMe .container .header .aboutMeText .btn{
+    background: #a33142;
+    border-color: #a33142;
+    color: white;
+    padding: .8rem 2rem;
+    margin:2rem 0;
+}
+#aboutMe .container .header .aboutMeText .btn:hover{
+    background: transparent;
+    border-color: black;
+    color: black;
+}
+#aboutMe .container .skills{
+    background: rgb(255, 255, 255, .3);
+    border-radius: 0 0 2rem 2rem;
+    font-weight: 600;
+}
+#aboutMe .container .skills .languages{
+    margin: 1rem 0;   
+}
+#aboutMe .container .skills img{
+    height: 3rem;
+    width: auto;
+}
+#certificates{
+    background:url(images/nagasaki.png);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 25%;
+    width: 100%;
+}
+#certificates .container{
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+    max-height: 100vh;
+}
+#certificates .container img{
+    width: 100%;
+}
+#contact{
+    background-color:rgb(38, 40, 41);
+    color:  #1ba39c;
+    padding-top: 1rem;
+}
+#contact .container{
+    justify-content: center;
+    text-align: center;
+}
+#contact .container .footer-copyright p{
+    margin: 0;
+}
+#contact .container .row .title{
+    margin-bottom: 1rem;
+}
+#home{
+    background:url(images/tokyo.png);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    width: 100%;
+}
+#home .container{
+    justify-content: center;
+}
+#home .container .row{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    margin: 0 5%;
+    padding: auto;
+    text-align: justify;
+}
+#home .container .row{
+    text-align: center;
+}
+#home .container .row .btn{
+    border-color: white;
+    color: white;
+}
+#home .container .row .btn:hover{
+    background:  #1ba39c;
+    border-color: white;
+    color: white;
+}
+#important{
+    background-color: #1ba39c;
+    border-radius: 1rem;
+    color:white;
+    padding: .5 .5rem;
+}
+#portfolio{
+    background:url(images/sapporo.png);
+    background-size: cover;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    width: 100%;
+}
+#portfolio .container{
+    display: block;
+    justify-content: center;
+}
+#portfolio .container .card{
+    font-family: 'Lato',sans-serif;
+}
+#portfolio .container .card .img-top{
+    height: 100%;
+}
+#portfolio .container .row{
+    margin: 0;
+}
+#skills{
+    background:url(images/nagasaki.png);
+    background-size: cover;
+    width: 100%;
+}
+.card{
+    background-color: rgb(255, 255 , 255,.3);
+    margin: 2rem 3rem;
+}
+.card-body{
+    box-shadow: 0 0 2rem .5rem rgb(0, 0, 0, .1);
+    padding: auto;
+}
+.card-body h5{
+    font-size: 1.5rem;
+}
+.carousel-item{
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    width: 100%;
+}
+.carousel-control-prev-icon{
+    background-image: url(images/leftarrow.png);
+}
+.carousel-control-next-icon{
+    background-image: url(images/rightarrow.png);
+}
+.carousel-text{
+    color: black;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+}
+#contact .container{
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.navbar{
+    background: transparent;
+    background-color:rgb(38, 40, 41);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 1px 4px gray;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem 0;
+}
+.navbar .navbar-brand{
+    color: #1ba39c;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 4%;
+}
+.navbar .collapse{
+    flex-basis: 100%;
+    justify-content: right;
+    margin-right: 5%;
+}
+.navbar .collapse .navbar-nav a{
+    color: #1ba39c;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navbar .collapse .navbar-nav .nav-item .active{
+   
+    color: white;
+}
+.navbar .collapse .navbar-nav a:hover{
+    color: white;
+    transition-duration: .3s;
+}
+.navbar .navbar-collapse .navbar-nav a{
+    color: #1ba39c;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navbar .navbar-collapse .navbar-nav #important:hover{
+    color: black;
+}
+.portfolio-header-text{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+body {
+  background-color: #95c2de;
+}
+
+.mainbox {
+  background-color: #95c2de;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+  .err {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:absolute;
+    left: 20%;
+    top: 8%;
+  }
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+ .err2 {
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 11rem;
+    position:absolute;
+    left: 68%;
+    top: 8%;
+  }
+
+.msg {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    position:absolute;
+    left: 16%;
+    top: 45%;
+    width: 75%;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
